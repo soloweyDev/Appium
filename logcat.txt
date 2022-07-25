@@ -1,0 +1,80 @@
+--------- beginning of main
+07-25 15:56:00.042  1234  1290 D hwcomposer: hw_composer sent 28 syncs in 78s
+07-25 15:56:23.384 26745 26745 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-25 15:56:23.386 26745 26745 D AndroidRuntime: CheckJNI is OFF
+07-25 15:56:23.395 26745 26745 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-25 15:56:23.407 26745 26745 E memtrack: Couldn't load memtrack module (No such file or directory)
+07-25 15:56:23.407 26745 26745 E android.os.Debug: failed to load memtrack module: -2
+07-25 15:56:23.408 26745 26745 I Radio-JNI: register_android_hardware_Radio DONE
+07-25 15:56:23.415 26745 26745 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+07-25 15:56:23.419 26745 26745 I art     : System.exit called, status: 0
+07-25 15:56:23.419 26745 26745 I AndroidRuntime: VM exiting with result code 0.
+07-25 15:56:23.541 26690 26760 I appium  : channel read: GET /wd/hub/sessions
+07-25 15:56:23.543 26690 26760 I appium  : GetSessions command
+07-25 15:56:23.552 26690 26760 I appium  : AppiumResponse: {"sessionId":"None","value":[]}
+07-25 15:56:23.727 26761 26761 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-25 15:56:23.730 26761 26761 D AndroidRuntime: CheckJNI is OFF
+07-25 15:56:23.739 26761 26761 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-25 15:56:23.753 26761 26761 E memtrack: Couldn't load memtrack module (No such file or directory)
+07-25 15:56:23.753 26761 26761 E android.os.Debug: failed to load memtrack module: -2
+07-25 15:56:23.753 26761 26761 I Radio-JNI: register_android_hardware_Radio DONE
+07-25 15:56:23.765 26761 26761 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+--------- beginning of system
+07-25 15:56:23.771  1604  2076 I ActivityManager: Force stopping io.appium.uiautomator2.server.test appid=10063 user=0: from pid 26761
+07-25 15:56:23.775 26761 26761 D AndroidRuntime: Shutting down VM
+07-25 15:56:24.012 26690 26770 I appium  : channel read: GET /wd/hub/status
+07-25 15:56:24.012 26690 26770 I appium  : Status command
+07-25 15:56:24.012 26690 26770 I appium  : AppiumResponse: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+07-25 15:56:24.017 26690 26770 I appium  : channel read: POST /wd/hub/session
+07-25 15:56:24.017 26690 26770 I appium  : NewSession command
+07-25 15:56:24.023 26690 26770 I appium  : Created the new session with id 0084da41-d8ef-487a-8257-b9857ed01d0b and capabilities {ensureWebviewsHavePages=true, webStorageEnabled=false, platformName=Android, desired={platformName=Android, deviceName=Galaxy_Nexus_API_23, automationName=uiautomator2, ensureWebviewsHavePages=true, nativeWebScreenshot=true, newCommandTimeout=3600.0, connectHardwareKeyboard=true}, networkConnectionEnabled=true, warnings={}, takesScreenshot=true, platform=LINUX, newCommandTimeout=3600.0, databaseEnabled=false, connectHardwareKeyboard=true, automationName=uiautomator2, deviceUDID=emulator-5554, nativeWebScreenshot=true, deviceName=emulator-5554, locationContextEnabled=false, javascriptEnabled=true}
+07-25 15:56:24.027 26690 26770 I appium  : AppiumResponse: {"sessionId":"0084da41-d8ef-487a-8257-b9857ed01d0b","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"pl…
+07-25 15:56:24.046 26690 26770 I appium  : channel read: GET /wd/hub/session/0084da41-d8ef-487a-8257-b9857ed01d0b/appium/device/info
+07-25 15:56:24.046 26690 26770 I appium  : GetDeviceInfo command
+07-25 15:56:24.081 26690 26770 E BluetoothAdapter: Bluetooth binder is null
+07-25 15:56:24.083 26690 26770 I appium  : AppiumResponse: {"sessionId":"0084da41-d8ef-487a-8257-b9857ed01d0b","value":{"androidId":"fde6ce5e3743f42a","apiVersion":"23","bluetooth":null,"brand":"Android","carrierName":"Android","displayDensity":320,"locale":"en_US","manufacturer":"unknown","model":"Android SDK built for x86","networks":[{"capabilities":{"SS…
+07-25 15:56:24.167 26690 26770 I appium  : channel read: GET /wd/hub/session/0084da41-d8ef-487a-8257-b9857ed01d0b/appium/device/pixel_ratio
+07-25 15:56:24.167 26690 26770 I appium  : GetDevicePixelRatio command
+07-25 15:56:24.169 26690 26770 I appium  : AppiumResponse: {"sessionId":"0084da41-d8ef-487a-8257-b9857ed01d0b","value":2.0}
+07-25 15:56:24.173 26690 26770 I appium  : channel read: GET /wd/hub/session/0084da41-d8ef-487a-8257-b9857ed01d0b/appium/device/system_bars
+07-25 15:56:24.173 26690 26770 I appium  : GetSystemBars command
+07-25 15:56:24.188 26690 26770 I appium  : AppiumResponse: {"sessionId":"0084da41-d8ef-487a-8257-b9857ed01d0b","value":{"statusBar":48}}
+07-25 15:56:24.191 26690 26770 I appium  : channel read: GET /wd/hub/session/0084da41-d8ef-487a-8257-b9857ed01d0b/window/current/size
+07-25 15:56:24.191 26690 26770 I appium  : GetDeviceSize command
+07-25 15:56:24.191 26690 26770 I appium  : Get window size of the device
+07-25 15:56:24.192 26690 26770 I appium  : AppiumResponse: {"sessionId":"0084da41-d8ef-487a-8257-b9857ed01d0b","value":{"height":1184,"width":720}}
+07-25 15:56:24.205 26771 26771 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-25 15:56:24.206 26771 26771 D AndroidRuntime: CheckJNI is OFF
+07-25 15:56:24.216 26771 26771 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+07-25 15:56:24.227 26771 26771 E memtrack: Couldn't load memtrack module (No such file or directory)
+07-25 15:56:24.227 26771 26771 E android.os.Debug: failed to load memtrack module: -2
+07-25 15:56:24.228 26771 26771 I Radio-JNI: register_android_hardware_Radio DONE
+07-25 15:56:24.247 26771 26771 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-25 15:56:24.277  1604  8085 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10062 user=0: start instr
+07-25 15:56:24.277  1604  8085 I ActivityManager: Killing 26690:io.appium.uiautomator2.server/u0a62 (adj 0): stop io.appium.uiautomator2.server
+07-25 15:56:24.312  1604  8085 W ActivityManager: Crash of app io.appium.uiautomator2.server running instrumentation ComponentInfo{io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner}
+07-25 15:56:24.315  1604  8085 I ActivityManager: Force stopping io.appium.uiautomator2.server appid=10062 user=0: finished inst
+07-25 15:56:24.317  1604  1618 W ActivityManager: Error shutting down UiAutomationConnection
+07-25 15:56:24.320 26782 26782 I art     : Late-enabling -Xcheck:jni
+07-25 15:56:24.320  1604  8085 I ActivityManager: Start proc 26782:io.appium.uiautomator2.server/u0a62 for added application io.appium.uiautomator2.server
+07-25 15:56:24.320  1604  2076 W ActivityManager: Spurious death for ProcessRecord{b8f0ac3 0:io.appium.uiautomator2.server/u0a62}, curProc for 26690: null
+07-25 15:56:24.357 26782 26782 W System  : ClassLoader referenced unknown path: /data/app/io.appium.uiautomator2.server.test-1/lib/x86
+07-25 15:56:24.357 26782 26782 W System  : ClassLoader referenced unknown path: /data/app/io.appium.uiautomator2.server-1/lib/x86
+07-25 15:56:24.372 26782 26782 I MonitoringInstr: Instrumentation started!
+07-25 15:56:24.391 26782 26782 V TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+07-25 15:56:24.400 26782 26795 I UsageTrackerFacilitator: Usage tracking disabled
+07-25 15:56:24.402 26782 26795 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/io.appium.uiautomator2.server.test-1/base.apk]
+07-25 15:56:24.475 26782 26795 W AndroidJUnit4Builder: java.lang.NoClassDefFoundError: java.nio.file.Path in hasTestMethods for okio.Okio
+07-25 15:56:24.488 26782 26795 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+07-25 15:56:24.488 26782 26795 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+07-25 15:56:24.488 26782 26795 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+07-25 15:56:24.493 26782 26795 I TestRunner: run started: 1 tests
+07-25 15:56:24.494 26782 26795 I TestRunner: started: startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server)
+07-25 15:56:24.497 26782 26795 I appium  : [AppiumUiAutomator2Server] Starting Server
+07-25 15:56:25.498 26782 26795 I appium  : Starting MJPEG Server
+07-25 15:56:25.513 26782 26795 I appium  : MJPEG Server started
+07-25 15:56:25.514 26782 26797 I appium  : ServerSocket created on port 7810
+07-25 15:56:25.517 26782 26795 I appium  : AndroidServer created on port 6790
+07-25 15:56:25.517 26782 26795 I appium  : io.appium.uiautomator2.server started:
+07-25 15:56:25.519 26782 26799 I appium  : Started UiAutomator2 io.appium.uiautomator2.http io.appium.uiautomator2.server on port 6790
+07-25 15:57:00.045  1234  1290 D hwcomposer: hw_composer sent 11 syncs in 60s
